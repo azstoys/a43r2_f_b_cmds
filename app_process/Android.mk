@@ -9,9 +9,9 @@ LOCAL_SHARED_LIBRARIES := \
 	libutils \
 	liblog \
 	libbinder \
-	libandroid_runtime
+	libandroid_runtime_az
 
-LOCAL_MODULE:= app_process
+LOCAL_MODULE:= azapp_process
 
 include $(BUILD_EXECUTABLE)
 
